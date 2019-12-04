@@ -1,0 +1,53 @@
+{
+    "details": "Generated for Egodrone",
+    "key": "4ebb94427d88ea28de562e1cd388e6e5",
+    "summary": {
+        "questions": 11,
+        "points": 15,
+        "pass": 9,
+        "passdistinct": 15
+    },
+    "points": {
+        "1.1": 1,
+        "1.2": 1,
+        "1.3": 1,
+        "1.4": 1,
+        "1.5": 1,
+        "2.1": 1,
+        "2.2": 1,
+        "3.1": 1,
+        "3.2": 1,
+        "4.1": 3,
+        "4.2": 3
+    },
+    "answers": {
+        "1.1": 43,
+        "1.2": 3,
+        "1.3": "The meaning of life is 42",
+        "1.4": false,
+        "1.5": true,
+        "2.1": [
+            3,
+            23,
+            15
+        ],
+        "2.2": [
+            3,
+            23,
+            15,
+            40
+        ],
+        "3.1": [
+            "Jim Lovell was on the apollo 13",
+            "Jack Swigert was on the apollo 13",
+            "Fred Haise was on the apollo 13"
+        ],
+        "3.2": [
+            "Jim Lovell was not on the apollo 12",
+            "Jack Swigert was not on the apollo 12",
+            "Fred Haise was not on the apollo 12"
+        ],
+        "4.1": 465,
+        "4.2": 374
+    }
+}

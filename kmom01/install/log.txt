@@ -1,0 +1,68 @@
+Servens namn: 
+Serversnamn
+
+Extern IP:
+89.XX.XX.XX 
+
+Intern IP (Server):
+192.168.0.195
+
+--------
+sXX@CC-se-a:~$ uname -a
+Linux XXXX-se-a 4.15.0-43-generic #46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+--------
+
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get autoclean
+sudo apt install net-tools
+
+sudo apt-get install cowsay
+sudo apt-get install build-essential module-assistant dkms
+sudo apt-get install openssh-server
+
+sudo apt-get install mysql-server
+sudo mysql_secure_installation
+sudo service mysql status
+sudo service mysql start
+
+------------
+#sudo mysql -uroot -p
+> SHOW DATABASES;
+####### you can clean the screen with: ctrl-l
+> exit
+
+// Create new user
+> CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+
+// Give permissions
+> GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
+
+---------------------
+sudo apt-get install mysql-workbench
+mysql-workbench
+// change username from root to chosen one
+
+sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/mosbth/dbwebb-cli/master/install.bash)"
+
+dbwebb --version
+which dbwebb
+dbwebb --help
+
+dbwebb config
+
+cat $HOME/.dbwebb.config
+dbwebb selfupdate
+
+# Byt $HOME till $HOMEPATH för hemmakatalog för Windowsanvändaren
+$ mkdir $HOME/dbwebb-kurser
+$ cd $HOME/dbwebb-kurser
+$ dbwebb clone
+$ dbwebb clone htmlphp
+$ cd htmlphp
+$ ls
+$ cd htmlphp
+$ dbwebb init
+$ dbwebb update
+/home/XXXX/dbwebb-kurser/databas$ sudo dbwebb init
+
